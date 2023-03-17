@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="OPnDHD" name="OtoDecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="v3utt3" name="OtoDecks">
+    <GROUP id="{AF744DA6-2C6B-F6D6-C3F0-57150CC8AF4B}" name="Source">
+      <FILE id="O140fU" name="ff_icon.png" compile="0" resource="1" file="../../../Downloads/ff_icon.png"/>
+      <FILE id="M1oNpb" name="rewind_icon.png" compile="0" resource="1" file="../../../Downloads/rewind_icon.png"/>
+      <FILE id="CztplD" name="play_icon.png" compile="0" resource="1" file="../../../Downloads/play_icon.png"/>
+      <FILE id="sOAIPy" name="pause_icon.png" compile="0" resource="1" file="../../../Downloads/pause_icon.png"/>
+      <FILE id="XXKQeu" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="qMlaRG" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="Y1qW8W" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="uJ3dne" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="NnUukf" name="DeckGui.cpp" compile="1" resource="0" file="Source/DeckGui.cpp"/>
+      <FILE id="g2Xt4O" name="DeckGui.h" compile="0" resource="0" file="Source/DeckGui.h"/>
+      <FILE id="MGn76N" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="SH2oaZ" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="W1XCFo" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="V7B0Nh" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="cO5Uc5" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
