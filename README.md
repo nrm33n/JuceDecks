@@ -1,6 +1,6 @@
 # JuceDecks
 
-Here, I'm using the <a href="https://juce.com/">JUCE</a> framework for C++ to create a music mixing application with a mixing deck UI. It allows the user to load audio 
+Here I'm using the <a href="https://juce.com/">JUCE</a> framework for C++ to create a music mixing application with a mixing deck UI. It allows the user to load audio 
 files into a playlist, parses those files for length, song name, and artist. 
 
 Users can rewind, fast forward, play, and pause each file independently. The volume, speed, and position of each song can also be independently changed around. 
